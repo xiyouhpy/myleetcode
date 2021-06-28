@@ -31,7 +31,7 @@ func main() {
 		return
 	}
 
-	fmt.Println("success!")
+	fmt.Println("success!", romanToInt("CCC"))
 }
 
 func romanToInt(s string) int {
